@@ -1,0 +1,140 @@
+body {
+    margin:0;
+    width:100%;
+    position :relative;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0; 
+  padding: 0;
+  background-color:#2E2E2E;
+  position:fixed;
+  overflow: hidden;
+  width:100%;
+  height: 70px;
+}
+
+li {
+  display: inline;
+  font-family: arial;
+}
+  
+li a {
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 30px 20px;
+}
+
+li a:hover {
+  background-color: #424242;
+  color:#00BFFF;
+}
+
+#intro1 {
+  font-family:fantasy;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+#intro2 {
+  color : black;
+  font-size : 25px;
+  font-weight: bold;
+  text-align : center;
+}
+
+header {
+  background-image:url("http://www.goderichwebdesign.com/wp-content/uploads/2015/03/bg.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  margin:auto;
+  width:100%;
+  height: 600px;
+}
+      
+.img_header {
+  display: block;
+  max-width: 30%;
+  margin: auto;
+  padding-top: 10%;
+  padding-bottom: 0;
+  /*border-radius: 50%;*/
+  width: 300px;
+  height: 300px;
+}
+
+section {
+  text-align:center;
+  padding:80px;
+  margin:0;
+}
+#hello {
+  background-image :url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVpDo_M4vJVlTRg2Y_i2i04wAOvJr9E6npn3_CoaNF4sRDg_Ru");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size : 18px;
+}
+#profile {
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJLRU3ParMqqE2z8NmugAHkjIgxePKqCVoJET_j8-fEfPJBmAc");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#photo {
+  background-image:url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcScs94RCh_Nt1xqfXEZh0cDDasQNu9vIO4qif6lIZm3Ql0HiuLP");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#who {
+  background-image:url("http://blogfiles5.naver.net/MjAxNjEwMzBfMTI3/MDAxNDc3ODE5MDgxNDg4.I0BiZ9-L7wj-5xDRVQws0t4TOhYm9d__wmGBskthxWIg.L1zpvuovJL0xK-_pxGn8L99irxeZqZB8Eb_ZU6OXGRUg.JPEG.lmmabe/NaverBlog_20161030_181801_13.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#email {
+  background-image:url("http://cfile24.uf.tistory.com/original/1558F93C4E5DA85E3617BA");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+table {
+  margin:auto;
+}
+table img {
+  margin:auto;
+  padding:10px;
+  max-width:280px;
+  max-height:280px;
+  border-radius :25%;
+  position: static;
+}
+.profile_tb tr th{
+  width:200px;
+}
+
+#photo table tr td div {
+  background-color:#C0C0C0;
+  height:50px;
+  width:auto;
+  position:relative;
+  display:none;
+  font-weight:bold;
+  font-family: fantasy;
+  font-size:20px;
+} 
+
+.footer {
+  font-size: 15px;
+  text-align : center;
+  color:white;
+}
+
+.scroll {
+  position: fixed;
+  right: 10%;
+  bottom: 10%;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
